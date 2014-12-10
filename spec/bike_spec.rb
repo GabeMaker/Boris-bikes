@@ -1,3 +1,5 @@
+require 'bike'
+
 # we're describing the funtionality of a specific class, Bike
 describe Bike do
 	# this is a specific feature
