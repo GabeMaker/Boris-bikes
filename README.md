@@ -5,7 +5,7 @@ Classes (and responsibilities)
 	-[ ] rent
 	-[ ] return
 -[ ] bike
-	-[ ] break
+	-[x] break
 -[ ] station
 	-[ ] lend
 	-[ ] hold
