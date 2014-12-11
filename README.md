@@ -15,3 +15,9 @@ Classes (and responsibilities)
 -[ ] van
 	-[x] hold
 	-[ ] move
+
+
+
+	Docking station doesn't release broken bikes
+
+	Van releases bikes at garage
