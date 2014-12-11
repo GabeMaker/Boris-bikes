@@ -32,7 +32,7 @@ module BikeContainer
 	end
 
 	def dock(bike)
-		raise "Station is full" if full?
+		raise 'No room for bikes' if full?
 		bikes << bike
 	end
 
@@ -47,12 +47,5 @@ module BikeContainer
 	def available_bikes
 		bikes.reject {|bike| bike.broken?}
 	end
-
-	# def fill_station(holder)
-	# end
-
-	# def fill_station
-	# end
-
 
 end

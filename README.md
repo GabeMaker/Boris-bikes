@@ -8,10 +8,10 @@ Classes (and responsibilities)
 	-[x] break
 -[ ] station
 	-[ ] lend
-	-[ ] hold
+	-[x] hold
 -[ ] garage
 	-[ ] fix
-	-[ ] hold
+	-[x] hold
 -[ ] van
-	-[ ] hold
+	-[x] hold
 	-[ ] move

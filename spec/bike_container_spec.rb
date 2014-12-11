@@ -33,7 +33,7 @@ describe BikeContainer do
 
 	it 'should not accept a bike if its full' do
 		fill_station(holder)
-		expect(lambda { holder.dock(bike)}).to raise_error(RuntimeError, 'Station is full')
+		expect(lambda { holder.dock(bike)}).to raise_error(RuntimeError, 'No room for bikes')
 		# {} like a bomb disposal box, lambda not necessary but a keyword in Ruby
 	end
 	it 'should provide the list of available bikes' do
