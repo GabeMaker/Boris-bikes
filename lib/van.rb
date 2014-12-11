@@ -1,5 +1,14 @@
-# require 'bike_container'
+require './lib/bike_container.rb'
 
-# class Van
+class Van
 
-# end
+	include BikeContainer
+
+	def collect(station)
+		broken_bikes = station.bikes.select{ | bike | bike.broken? == true}
+		bikes << broken_bikes
+		#remove from station
+		#add these bikes to van
+	end
+
+end

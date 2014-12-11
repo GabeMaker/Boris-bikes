@@ -10,7 +10,7 @@ Classes (and responsibilities)
 	-[ ] lend
 	-[x] hold
 -[ ] garage
-	-[ ] fix
+	-[x] fix
 	-[x] hold
 -[ ] van
 	-[x] hold
